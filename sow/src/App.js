@@ -11,6 +11,7 @@ import Qualification from './pages/Qualification';
 import AboutUs from './pages/AboutUs';
 import { Skeleton } from '@mui/material';
 import Skills from './pages/Skills';
+import Hobbies from './pages/Hobbies';
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
         <Route path="AboutUs" element={<AboutUs/>}/>
         <Route path="Experience" element={<Experience/>}/>
         <Route path="Qualification"element={<Qualification/>}/>
-        <Route path="Skills" element={<Skills/>}/>        
+        <Route path="Skills" element={<Skills/>}/> 
+        <Route path="Hobbies" element={<Hobbies/>}/>       
       </Routes>
       </BrowserRouter>
     </div>

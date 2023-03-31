@@ -14,7 +14,9 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom';
 
-const pages = ['AboutUs', 'Skills', 'Experience','Qualification'];
+
+
+const pages = ['AboutUs', 'Skills', 'Experience','Qualification','Hobbies'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -56,7 +58,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            SOUMYA
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -107,7 +109,7 @@ function Navbar() {
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
