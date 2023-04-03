@@ -16,7 +16,7 @@ import {Link} from 'react-router-dom';
 
 
 
-const pages = ['AboutUs', 'Skills', 'Experience','Qualification','Hobbies'];
+const pages = ['AboutUs', 'Skills', 'Experience','Qualification','Hobbies','Projects','Certificates','Workshop'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
